@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -103,6 +104,48 @@ li {
     padding-top: 10px;
 }
 
+.description3{
+    font-size: xx-large;
+    padding-top: 120px;
+}
+
+
+/* Menzies sidan */
+
+.mHeader {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: rgb(126, 155, 185);
+}
+
+.logo2 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+}
+
+.mMain {
+    background: #6e6e6e;
+    height: 100vm;
+    text-align: center;
+}
+
+.mImage{
+    width: 100%;
+}
+
+.liText1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    font-size: 30px;
+}
+.liText2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
 /* responsivitet */
 
 @media screen and (max-width: 800px) {
@@ -130,4 +173,7 @@ li {
     .intro{
         padding-top: 160px;
     }
+    .description3{
+        padding-top: 180px;
+    }   
 }

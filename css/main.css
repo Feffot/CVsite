@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+
+
+.mainHeader {
+    position: fixed;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    background: #52bad5;
+    color: white;
+}
+
+.navigering {
+    padding-top: 40px;
+    float: right;
+    width: 50%;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.headNav {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    top: 50%;
+}
+.headerText {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* innehåll */
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+.profile {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.section {
+    height: auto;
+    text-align: center;
+}
+
+.text{
+    padding-bottom: 20px;
+}
+.intro {
+    padding-top: 100px;
+    background: #B3B3B3;
+}
+.schooling {
+    background: #6e6e6e;
+    color: white;
+}
+
+.work {
+    background: rgb(126, 155, 185);
+}
+
+.hobbies {
+    background: rgb(44, 52, 63);
+    color: white;
+}
+
+.description1{
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+.description2{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.description3{
+    font-size: xx-large;
+    padding-top: 120px;
+}
+
+
+/* Menzies sidan */
+
+.mHeader {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: rgb(126, 155, 185);
+}
+
+.logo2 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+}
+
+.mMain {
+    background: #6e6e6e;
+    height: 100vm;
+    text-align: center;
+}
+
+.mImage{
+    width: 100%;
+}
+
+.liText1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    font-size: 30px;
+}
+.liText2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* responsivitet */
+
+@media screen and (max-width: 800px) {
+
+    .headNav{
+        display: inline-block;
+        line-height: 30px;
+        padding-left: 0;
+    }
+    .headerText{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .navigering{
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .mainHeader{
+        height: auto;
+        display: inline-block;
+    }
+
+    .intro{
+        padding-top: 160px;
+    }
+
+    .description3{
+        padding-top: 180px;
+    }   
+}

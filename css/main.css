@@ -109,6 +109,29 @@ li {
     padding-top: 120px;
 }
 
+/* Footer */
+
+#footer {
+    display: flex;
+    background: rgb(74, 69, 83);
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fas{
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+
+.fab {
+    padding-top: 1em;
+    font-size: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 
 /* Menzies sidan */
 
@@ -184,4 +207,9 @@ li {
     .description3{
         padding-top: 180px;
     }   
+
+    .fab {
+        font-size: 20px;
+        padding-top: 2em;
+    }
 }
